@@ -1,0 +1,189 @@
+@charset "UTF-8";
+body
+{
+	background-image: url(background.png);
+	font-size: 8pt;
+	font-family: Verdana;
+	margin: 0%;
+	padding: 0%;
+}
+
+#mainarea
+{
+	border-width: 4px;
+	border-color: grey;
+	border-style: solid;
+	height: 857.8px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+#maindivright
+{
+	float: right;
+
+}
+
+#banner
+{
+	background-image: url(bannerbackground.png);
+	height: 50px;
+}
+
+#bannerimg
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1
+{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 1%;
+}
+
+#title
+{
+	background-image: url(rottenbackground.png);
+	width: 550px;
+	height: 83px;
+}
+
+#rottenimg
+{
+	float: left;
+}
+
+#reviews
+{
+	width: 550px;
+	height: 83px;
+	vertical-align: sub;
+}
+
+#review1
+{
+	width: 550px;
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	padding-top: 10px;
+	padding-left: 105px;
+	
+}
+
+#review2
+{
+	font-size: 8pt;
+	color: white;
+}
+
+.overview
+{
+	width: 250px;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: arial;
+}
+
+.footer
+{
+	background-color: #A2B964;
+ 	text-align: center;
+  	color: black;
+}
+
+#footer
+{
+	padding: 5px;
+}
+
+dl
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0.2px;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+.columns
+{
+	column-count: 2;
+	column-gap: 2%;
+	padding: 2%;
+}
+
+.reviewboxright
+{	
+	
+	float: right;
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E1D697;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	word-wrap: normal;
+}
+
+.reviewboxleft
+{
+	
+	float: left;
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E1D697;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	word-wrap: normal;
+}
+
+.reviewimg
+{
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0.6px;
+
+}
+
+.criticimg
+{
+	float: left;
+	right: 5px;
+}
+
+span
+{
+	font-style: italic;
+}
+
+#bottom
+{
+	padding-bottom: 2.5px;
+	width: 250px;
+}
+
+.side
+{
+	padding-left: 5px;
+}
+
+#validations
+{
+	float: right;
+}
+
+#test{
+	padding-bottom: 10px;
+	padding-right: 2%;
+}
