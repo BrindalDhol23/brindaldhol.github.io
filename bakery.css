@@ -1,0 +1,433 @@
+*
+{
+	font-family: Georgia;
+	margin: 0%;
+	padding: 0%;
+}
+html
+{
+	scroll-behavior: auto;
+}
+
+body
+{
+	background-color: #ffb991;
+}
+
+#header
+{
+
+	background-color: white;
+	margin-top: 0%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#logo
+{
+	padding-right: 150px;
+	padding-top: 5px;
+}
+
+#aside-title
+{
+	float: left;
+}
+
+#menu
+{
+	position: fixed;
+	float: right;
+	width: 100%;
+}
+
+li
+{
+	display: inline-block;
+	padding: 1.5%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.a
+{
+	font-family: Girdens;
+}
+
+a:link {
+  color: orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d67900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #54350d;
+  text-decoration: underline;
+}
+
+
+#sec1
+{
+	background-color: orange;
+	height: 600px;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+#cupcake
+{
+	float: right;
+	padding-top: 3%;
+	padding-right: 15%;
+	height: 500px;
+	width: 350px;
+	position: relative;
+	animation: move 2s 1;
+}
+
+.animation
+{
+	animation-timing-function: linear;
+}
+
+@keyframes move {
+  from {right: 100%;}
+  to {right: 0%;}
+}
+
+#welcome
+{
+
+	width: 40%;
+	margin: 5%;
+}
+
+.quote1
+{
+	font-family: Butterfly;
+	font-size: 45px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	color: #bdfffc;
+	text-shadow: 2px 2px 4px #473310;
+}
+
+h1,h2
+{
+	font-family: Bulgaria;
+	font-size: 70px;
+	text-align: center;
+	color: #331e09;
+	text-shadow: 2px 2px 4px #473310;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #331e09;
+  border: none;
+  color: #edcee5;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-family: Bulgaria;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  font-family: Bulgaria;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: #75eaff;
+  font-family: Bulgaria;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  font-family: Bulgaria;
+}
+
+
+.button-top {
+  border-radius: 4px;
+  background-color: #331e09;
+  border: none;
+  color: #edcee5;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button-top span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-family: Bulgaria;
+}
+
+.button-top span:after {
+  content: '\02191';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  font-family: Bulgaria;
+}
+
+.button-top:hover span {
+  padding-right: 25px;
+  color: #75eaff;
+  font-family: Bulgaria;
+}
+
+.button-top:hover span:after {
+  opacity: 1;
+  right: 0;
+  font-family: Bulgaria;
+}
+
+#button-align
+{
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#about
+{
+	background-image: url(bg-2.jpg);
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#aboutus-img
+{
+	float: left;
+	padding-top: 5%;
+	padding-left: 5%;
+	height: 75%;
+	width: 35%;	
+}
+
+#aboutus-text
+{
+	font-family: Anydore;
+	font-size: 50px;
+	text-align: center;
+	padding: 10px 20px 20px 20px;
+	color: #bdfffc;
+
+}
+
+#aboutus
+{
+	width: 40%;
+	float: right;
+	margin-right: 10%;
+}
+
+.quote2
+{
+	font-family: Georgia;
+	font-size: 25px;
+	text-align: justify;
+	padding: 10px;
+	color: #915200;
+}
+
+.topbutton
+{
+	float: right;
+	padding-right: 3%;
+}
+
+#product
+{
+	background-image: url(bg-3.jpg);
+	background-size: cover;
+	height: 950px;
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.column 
+{
+  float: left;
+  width: 32%;
+  padding: 5px 12px 5px 5px;
+  height: 40%;
+  position: relative;
+}
+
+.column img
+{
+	width: 100%;
+}
+
+.row::after 
+{
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.overlay-img
+{
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 83%;
+  height: auto;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding: 6.5%;
+  text-align: center;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+#blog
+{
+	background-image: url(bg-2.jpg);
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.blog-img
+{
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	height: 400px;
+	width: 350px;
+}
+
+#blog-scroll
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 40%;
+	padding: 5%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.blog-text
+{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-text span
+{
+	font-family: Georgia;
+	font-size: 22px;
+	text-align: justify;
+	padding: 10px;
+	color: #915200;
+}
+
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+#contact
+{
+	background-image: url(contact-bg.jpg);
+	background-size: cover;
+	height: 965px;
+	padding-bottom: 5%; 
+}
+
+.contact-location
+{
+	padding-left: 5%;
+	font-size: 23px;
+}
+
+#visit
+{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	color: #331e09;
+	padding: 10%;
+	padding-right: 17%;
+	padding-top: 20%;
+	text-align: center;
+	transform: rotate(-13deg);
+    transform-origin: 60% 40%;
+}
