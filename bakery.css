@@ -375,6 +375,11 @@ h1,h2
 	overflow-x: hidden;
 }
 
+.container::-webkit-scrollbar 
+{ 
+    display: none;  /* Safari and Chrome */
+}
+
 .blog-text
 {
 	width: 50%;
