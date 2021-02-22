@@ -15,6 +15,11 @@
 	float: left;
 }
 
+@font-face {
+  font-family: "Girdens";
+  src: url("Girdens.otf");
+}
+
 h1
 {
 	font-family: Girdens;
