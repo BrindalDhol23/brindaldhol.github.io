@@ -53,6 +53,11 @@ li
 	font-size: 25px;
 }
 
+@font-face {
+  font-family: "Girdens";
+  src: url("Girdens.otf");
+}
+
 .a
 {
 	font-family: Girdens;
@@ -112,6 +117,11 @@ a:hover {
 	margin: 5%;
 }
 
+@font-face {
+  font-family: "Butterfly";
+  src: url("Butterfly.otf");
+}
+
 .quote1
 {
 	font-family: Butterfly;
@@ -122,6 +132,11 @@ a:hover {
 	padding-bottom: 20px;
 	color: #bdfffc;
 	text-shadow: 2px 2px 4px #473310;
+}
+
+@font-face {
+  font-family: "Bulgaria";
+  src: url("Bulgaria.otf");
 }
 
 h1,h2
@@ -249,6 +264,11 @@ h1,h2
 	width: 35%;	
 }
 
+@font-face {
+  font-family: "Anydore";
+  src: url("Anydore.otf");
+}
+
 #aboutus-text
 {
 	font-family: Anydore;
@@ -256,7 +276,6 @@ h1,h2
 	text-align: center;
 	padding: 10px 20px 20px 20px;
 	color: #bdfffc;
-
 }
 
 #aboutus
@@ -328,7 +347,7 @@ h1,h2
   position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1; 
   width: 83%;
   height: auto;
@@ -363,6 +382,11 @@ h1,h2
 	width: 350px;
 }
 
+.container::-webkit-scrollbar 
+{ 
+    display: none;
+}
+
 #blog-scroll
 {
 	display: block;
@@ -373,11 +397,6 @@ h1,h2
 	padding: 5%;
 	overflow: scroll;
 	overflow-x: hidden;
-}
-
-.container::-webkit-scrollbar 
-{ 
-    display: none;  /* Safari and Chrome */
 }
 
 .blog-text
